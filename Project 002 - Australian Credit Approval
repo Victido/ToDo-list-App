@@ -1,0 +1,26 @@
+### Australian Credit Approval
+Constructing a binary classification model capable of predicting credit approval decisions for individual customers
+
+### Liberies Used
+sklearn
+pandas
+numpy
+seaborn
+matplotlib
+
+### Files Description
+/content/Credit_Card_Applications.csv: This is the dataset file for the project
+CreditApproval.ipynb: The google colab notebook which includes the analysis and modeling
+
+### Usage
+Run the google colab notebook AustralianCredictApproval.ipynb
+
+### Summary
+In this project, I have tried to find out the factors that are most important for getting an approval or rejection for the credit card
+through the power of Data Analysis and Machine Learning. I used three (3) different models to carry out my project, out of the three,
+I found out that Random Forest Classifier gave uptimum result of 89% accuarate score, 87% precision score and 88% f1 score, while 
+Logistic Regression gave the highest value of 93% recall score. These are the models used to improve of our data. However, 93% recall score,
+89% accuracy score, 88% f1 score, 87% precision score, is the best we could get from this data using these models; logistic regression and
+random forest classifier and decision tree classifier.
+
+
